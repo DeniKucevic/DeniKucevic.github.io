@@ -1,0 +1,18 @@
+.corona-div {
+  border: 1px solid black;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  text-align: center;
+  border: 1px solid black;
+  padding: 2%;
+  margin: 1%;
+}
+.corona-div-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.covid-control {
+  padding-top: 10px;
+}

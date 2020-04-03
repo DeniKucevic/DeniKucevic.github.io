@@ -1,0 +1,45 @@
+.user-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.user-control {
+  padding-top: 10px;
+}
+.filter-control {
+  width: 300px;
+  transition: all 1s ease-in-out;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: rgb(64, 109, 168);
+  height: 35px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.btn-form {
+  background-color: rgb(78, 78, 78);
+  margin: 8px;
+  color: whitesmoke;
+  width: 32px;
+  height: 32px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  box-shadow: 1px 1px 1.5px black;
+  border-radius: 6px;
+}
+
+.btn-form:hover {
+  background-color: rgb(37, 37, 37);
+}
